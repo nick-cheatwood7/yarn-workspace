@@ -1,5 +1,5 @@
 import express, { Response } from "express";
-import { BaseResponse } from "./api/schema";
+import { BaseResponse } from "./src/api/schema";
 import { name as packageName } from "./package.json";
 
 const app = express();
@@ -13,4 +13,4 @@ app.listen(port, () => {
     console.log(`✨ Express server listening at http://localhost:${port}`);
 });
 
-export * from "./api/schema";
+export * from "./src/api/schema";
