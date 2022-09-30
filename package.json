@@ -1,0 +1,11 @@
+{
+  "name": "yarn-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "git@github.com:nick-cheatwood7/yarn-workspace.git",
+  "author": "Nick Cheatwood <nick.cheatwood@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "commonjs",
+        "outDir": "./dist",
+        "lib": ["es2015", "dom"],
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "allowUnreachableCode": false,
+        "declarationMap": true,
+        "noImplicitAny": true,
+        "declaration": true,
+        "sourceMap": true
+    },
+    "include": ["."],
+    "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+}
